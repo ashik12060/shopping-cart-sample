@@ -1,4 +1,5 @@
 
+
  //iPhone 11 Silicone Case - Black
 
  function updateProductNumber(product, price, isIncreasing) {
@@ -56,4 +57,7 @@ document.getElementById('case-plus').addEventListener('click',function(){
 document.getElementById('case-minus').addEventListener('click', function(){
     updateProductNumber('case',59,false);
 })
-
+ 
+ document.getElementById('button-click').addEventListener('click', function(){
+    alert('Thanks for shopping');
+})
